@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Initialize the views
+
         cityList = findViewById(R.id.city_list);
         addCityButton = findViewById(R.id.add_button);
         confirmButton = findViewById(R.id.confirm_button);
@@ -37,15 +37,15 @@ public class MainActivity extends AppCompatActivity {
         addCityBlock = findViewById(R.id.add_city_block);
         cityInput = findViewById(R.id.city_input);
 
-        // Initial data for the ListView
+
         String[] cities = {"Edmonton", "Vancouver"};
         dataList = new ArrayList<>(Arrays.asList(cities));
 
-        // Set the adapter
+
         cityAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, dataList);
         cityList.setAdapter(cityAdapter);
 
-        // Show the input block when Add City button is clicked
+        // Show the writing bar when add ity is clicked
         addCityButton.setOnClickListener(view -> {
             addCityBlock.setVisibility(View.VISIBLE);  // Show the input block
         });
