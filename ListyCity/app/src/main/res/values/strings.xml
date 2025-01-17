@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ListyCity</string>
+    <string name="sample_text">sample_text</string>
+    <string name="add_city">ADD CITY</string>
+    <string name="delete_city">DELETE CITY</string>
+    <string name="enter_city_name">Enter city name</string>
+    <string name="delet1e_city">Delete City</string>
+    <string name="ws">Add City</string>
+    <string name="confirm">Confirm</string>
+    <string name="as">Enter city name</string>
+    <string name="confirmm">Confirm</string>
+    <string name="sfg">Enter city name</string>
+    <string name="yyyy">Add City</string>
+    <string name="ddd">Delete City</string>
+    <string name="b">Add City</string>
+    <string name="dd">Delete City</string>
+    <string name="hh">DELETE CITY</string>
+    <string name="h">ADD CITY</string>
+    <string name="aa">Add City</string>
+    <string name="a">Delete City</string>
+    <string name="s">Enter City Name</string>
+    <string name="ss">Confirm</string>
+    <string name="sss">Remove Selected City</string>
+    <string name="aaaaaaaa">Enter city name</string>
+    <string name="sssssssss">Confirm</string>
+    <string name="fff">Enter city name</string>
+    <string name="kkk">Confirm</string>
+    <string name="lll">Delete City</string>
+    <string name="ll">Add City</string>
+    <string name="yyyyyyyyyyy">Delete City</string>
+</resources>
